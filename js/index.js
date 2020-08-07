@@ -108,3 +108,10 @@ pElements[5].textContent = siteContent["contact"]["address"];
 pElements[6].textContent = siteContent["contact"]["phone"];
 pElements[7].textContent = siteContent["contact"]["email"];
 pElements[8].textContent = siteContent["footer"]["copyright"];
+
+//nav color change
+
+const navGreen = document.querySelectorAll("a");
+navGreen.forEach((element) => {
+  element.style.color = "green";
+});
