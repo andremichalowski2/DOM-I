@@ -55,3 +55,21 @@ navigation[5].textContent = siteContent["nav"]["nav-item-6"];
 //logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute("src", siteContent["nav"]["img-src"]);
+
+//---------------------------HEADER SECTION---------------------------
+
+//titletext
+let ctaTexth1 = document.querySelector(".cta-text h1");
+ctaTexth1.textContent = siteContent["cta"]["h1"];
+//titletextwrap
+// let ctaContainer = document.querySelector('.cta');
+// ctaContainer.style.flexWrap = "wrap";
+// ctaContainer.justifyContent = "center";
+
+//btn
+let ctaTextButton = document.querySelector(".cta-text button");
+ctaTextButton.textContent = siteContent["cta"]["button"];
+//img
+let ctaImg = document.querySelector("#cta-img");
+ctaImg.setAttribute("src", siteContent["cta"]["img-src"]);
+ctaImg.style.width = "300px";
