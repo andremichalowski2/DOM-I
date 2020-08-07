@@ -86,3 +86,16 @@ pElements[0].textContent = siteContent["main-content"]["features-content"];
 //about
 h4elements[1].textContent = siteContent["main-content"]["about-h4"];
 pElements[1].textContent = siteContent["main-content"]["about-content"];
+
+//---------------------------BODY BOTTOM---------------------------
+
+const bodyLogo = document.getElementById("middle-img");
+bodyLogo.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+
+//otherelements
+h4elements[2].textContent = siteContent["main-content"]["services-h4"];
+pElements[2].textContent = siteContent["main-content"]["services-content"];
+h4elements[3].textContent = siteContent["main-content"]["product-h4"];
+pElements[3].textContent = siteContent["main-content"]["product-content"];
+h4elements[4].textContent = siteContent["main-content"]["vision-h4"];
+pElements[4].textContent = siteContent["main-content"]["vision-content"];
