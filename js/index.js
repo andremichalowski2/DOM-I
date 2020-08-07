@@ -99,3 +99,12 @@ h4elements[3].textContent = siteContent["main-content"]["product-h4"];
 pElements[3].textContent = siteContent["main-content"]["product-content"];
 h4elements[4].textContent = siteContent["main-content"]["vision-h4"];
 pElements[4].textContent = siteContent["main-content"]["vision-content"];
+
+//---------------------------FOOTER---------------------------
+let contacth4 = document.querySelector(".contact h4");
+contacth4.textContent = siteContent["contact"]["contact-h4"];
+
+pElements[5].textContent = siteContent["contact"]["address"];
+pElements[6].textContent = siteContent["contact"]["phone"];
+pElements[7].textContent = siteContent["contact"]["email"];
+pElements[8].textContent = siteContent["footer"]["copyright"];
